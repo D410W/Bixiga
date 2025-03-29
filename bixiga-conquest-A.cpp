@@ -7,9 +7,9 @@ using namespace std;
 int main() {
     int score;
 
-    int novice = 40;
-    int intermediate = 70;
-    int advanced = 90;
+    static int novice = 40;
+    static int intermediate = 70;
+    static int advanced = 90;
 
     cin >> score;
 
